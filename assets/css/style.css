@@ -284,3 +284,50 @@ section {
     color: var(--main-color);
     margin: 30px 0 40px;
 }
+
+/* ===== Resume section ===== */
+.resume-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4.4rem;
+}
+
+.resume-box {
+    background-color: #0b0b13;
+    padding: 40px 35px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.resume-box h6 {
+    font-size: 14px;
+    color: #3e4455;
+    font-weight: 600;
+}
+
+.resume-box h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 2rem 0 15px;
+    text-transform: capitalize;
+}
+
+.resume-box p {
+    font-size: var(--p-font);
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.resume-box h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.resume-box:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.7);
+}
