@@ -1,5 +1,7 @@
+/* ===== Imported font (Google Fonts) ===== */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
+/* ===== Global configuration ===== */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@
     text-decoration: none;
 }
 
+/* ===== Variables css ===== */
 :root {
     --bg-color: #10101a;
     --main-color: #2fbf71;
@@ -19,10 +22,12 @@
     --p-font: 1rem;
 }
 
+/* ===== Scroll smooth in document ===== */
 html {
     scroll-behavior: smooth;
 }
 
+/* ===== Colors default in body ===== */
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
